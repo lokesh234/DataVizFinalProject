@@ -1,9 +1,24 @@
 .marks {
-    fill:  #f0f5f5;
+    fill:  #ffffff;
 }
 
 .marks path {
     stroke: black;
 }
 
+.rectangles {
+    border-radius: 25px;
+}
 
+.tick line {
+    stroke: #C0C0BB;
+}
+
+.tick text {
+    fill: #635F5D;
+}
+
+.rectangles {
+    fill: #E6842A;
+    rx: 25;
+}

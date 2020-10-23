@@ -6,7 +6,7 @@ const csvUrl = "https://raw.githubusercontent.com/Chrissymbeck/Greek-Life-Demogr
 const row = d => {
     d["Longitude of Home City"] = +d["Longitude of Home City"];
     d["Latitude of Home City"] = +d["Latitude of Home City"];
-
+    d['Tuition of High School'] = +d['Tuition of High School'];
     return d;
 }
 

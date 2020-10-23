@@ -1,14 +1,14 @@
 import {Link} from "react-router-dom";
 import React, {Fragment} from "react";
 import TopBar from "../components/TopBar";
-import Marks from "../components/Marks";
+import BarChart from "../components/BarChart";
+import {useCities} from "../data/useCities";
 import {makeStyles} from "@material-ui/core/styles";
 import Paper from "@material-ui/core/Paper";
 import Tabs from "@material-ui/core/Tabs";
 import Tab from "@material-ui/core/Tab";
-import {useCities} from "../data/useCities";
 import AppCards from "../components/AppCards";
-
+import CSVTable from "../components/CSVTable";
 
 const useStyles = makeStyles((theme) => ({
     broot: {
@@ -37,46 +37,44 @@ const useStyles = makeStyles((theme) => ({
     },
 }));
 
-function Heatmap() {
+function Barchartpage(props) {
     const classes = useStyles();
     const [value, setValue] = React.useState(0);
-    const cities = useCities();
-    console.log(cities);
 
     const handleChange = (event, newValue) => {
         setValue(newValue);
     };
+
+    const cities = useCities();
+
+    const frats = [];
+    const srats = [];
+    const noaff = [];
+
 
     if (!cities) {
         return <pre> Loading... </pre>
     }
 
 
-
-    const UsaCities = [];
-    const joined = [];
-    const didnotjoin = [];
-
-    cities.forEach(c => {
-        if(c['Home Country'] === 'United States'){
-            UsaCities.push(c);
+    cities.forEach(function (d) {
+        if (d['Greek Council'] === 'Fraternity'){
+            frats.push(d)
         }
-    })
-
-    UsaCities.forEach(c => {
-        if (!(c['Greek Council'] === 'None')){
-            joined.push(c)
+        else if (d['Greek Council'] === 'Sorority'){
+            srats.push(d)
         }
         else {
-            didnotjoin.push(c)
+            noaff.push(d);
         }
     })
-
 
     return (
         <Fragment>
             <TopBar/>
-            { value === 0 ? <Marks cities={joined}/> : <Marks cities={didnotjoin}/>}
+            { value === 0 ? <BarChart data={srats} state={props.location.United} /> : null}
+            { value === 1 ? <BarChart data={frats} state={props.location.United} /> : null}
+            { value === 2 ? <BarChart data={noaff} state={props.location.United} /> : null}
             <Paper className={classes.broot}>
                 <Tabs
                     value={value}
@@ -85,12 +83,13 @@ function Heatmap() {
                     textColor="primary"
                     centered
                 >
-                    <Tab label="Joined Greek Life " />
-                    <Tab label="Did not join Greek Life " />
+                    <Tab label="Sorority" />
+                    <Tab label="Fraternity" />
+                    <Tab label="No Affiliation" />
                 </Tabs>
             </Paper>
         </Fragment>
     )
 }
 
-export default Heatmap;
+export default Barchartpage;
