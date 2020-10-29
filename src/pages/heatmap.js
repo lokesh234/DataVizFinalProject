@@ -6,7 +6,7 @@ import {makeStyles} from "@material-ui/core/styles";
 import Paper from "@material-ui/core/Paper";
 import Tabs from "@material-ui/core/Tabs";
 import Tab from "@material-ui/core/Tab";
-import {useCities} from "../data/useCities";
+import {useCities, sumArray} from "../data/useCities";
 import AppCards from "../components/AppCards";
 
 
@@ -41,7 +41,10 @@ function Heatmap() {
     const classes = useStyles();
     const [value, setValue] = React.useState(0);
     const cities = useCities();
+
+
     console.log(cities);
+
 
     const handleChange = (event, newValue) => {
         setValue(newValue);
@@ -50,7 +53,6 @@ function Heatmap() {
     if (!cities) {
         return <pre> Loading... </pre>
     }
-
 
 
     const UsaCities = [];
@@ -63,6 +65,13 @@ function Heatmap() {
         }
     })
 
+    const srats = []
+
+    cities.map(c => {
+        if ((c['Greek Council'] === 'Sorority')){
+            srats.push(c['Greek Organization'])
+        }})
+
     UsaCities.forEach(c => {
         if (!(c['Greek Council'] === 'None')){
             joined.push(c)
@@ -72,6 +81,9 @@ function Heatmap() {
         }
     })
 
+    const uniqueSrats = [ ...new Set(srats)]
+
+    console.log(uniqueSrats)
 
     return (
         <Fragment>
