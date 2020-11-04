@@ -1,15 +1,18 @@
 # Data Visualization Project
 
+##### Table of Contents  
+[Diversity in Greek Life](#Diversity in Greek Life )  
+
+
+## Diversity in Greek Life 
+
+This project is a data visualization website that visualizes Greek Life at Duke University and shows the different trends in diversity in Greek Life at the School.
+
 ## Data
 
 The data I propose to visualize for my project is the Duke University Greek Life Data Set. The dataset was originally published at [Greek-Life-Demographics](https://raw.githubusercontent.com/Chrissymbeck/Greek-Life-Demographics/master/Greek_Data_Duke_Class_of_2018.csv), this dataset contains the data The Chronicle used to analyze trends between those who do and don't join Greek life at Duke.
 
 
-## Prototypes
-
-I’ve created a proof of concept visualization of this data. It's a bar chart and it shows the average price of high school tuition of the people who joined Greek Life at Duke by the different states they come from. 
-
-[![image](Image.PNG)](https://vizhub.com/lokesh234/97130be4da0b456eaf092c8fffdd76ec?edit=files)
 
 ## Questions & Tasks
 
