@@ -34,10 +34,6 @@ The following image shows one of the different factors about the dataset that al
 ![image](viz2.PNG)
 
 
-## Open Questions
-
-I will build a complete react website to hold all of these visualizations. I have not fully read about react-router-dom and creating these interconnecting links can be a bit tricky without that. 
-
 ## Schedule of Deliverables 
 
 [Project Timeline]
