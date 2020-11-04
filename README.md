@@ -7,7 +7,7 @@ This project is a data visualization website that visualizes Greek Life at Duke 
   -[Setup](#Setup)  
   -[Libraries](#Libraries)  
   -[Project](#Project)   
-  -[Methodology(#Methodology)  
+  -[Methodology](#Methodology)  
   -[Results](#Results)  
   -[Acknowledgements](#Acknowledgements)  
 
