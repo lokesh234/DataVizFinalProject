@@ -7,6 +7,8 @@ This project is a data visualization website that visualizes Greek Life at Duke 
 [Questions](#Questions)  
 [Sketches](#Sketches)  
 [Schedule](#Schedule)  
+[Schedule](#Schedule)  
+[Acknowledgements](#Acknowledgements)  
 
 ## Data
 
@@ -46,3 +48,5 @@ The following image shows one of the different factors about the dataset that al
 | 2 | Making a sidebar for the last page that holds the option of switching between different data visualizations. | 10/31/2020 |
 | 7 | Creating multiple visualizations with different styling. | 10/31/2020 |
 | 5 | Allowing users to switch between the visualizations to see which students joined greek life based on different factors like if they went to Co-Ed School,  Religious School, and many more . | 11/04/2020 |
+
+## Acknowledgements 
