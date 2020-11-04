@@ -3,17 +3,21 @@
 This project is a data visualization website that visualizes Greek Life at Duke University and shows the different trends in diversity in Greek Life at the School.
 
 ##### Table of Contents  
-[Data](#Data)  
-[Questions](#Questions)  
-[Sketches](#Sketches)  
-[Schedule](#Schedule)  
-[Schedule](#Schedule)  
-[Acknowledgements](#Acknowledgements)  
+  -[Data](#Data)  
+  -[Setup](#Setup)  
+  -[Questions](#Questions)  
+  -[Sketches](#Sketches)   
+  -[Schedule](#Schedule)  
+  -[Schedule](#Schedule)  
+  -[Acknowledgements](#Acknowledgements)  
 
 ## Data
 
 The data I propose to visualize for my project is the Duke University Greek Life Data Set. The dataset was originally published at [Greek-Life-Demographics](https://raw.githubusercontent.com/Chrissymbeck/Greek-Life-Demographics/master/Greek_Data_Duke_Class_of_2018.csv), this dataset contains the data The Chronicle used to analyze trends between those who do and don't join Greek life at Duke.
 
+## Setup
+
+To run the website download the code from github using `git clone` and clone the repository into your local computer. 
 
 ## Questions 
 
