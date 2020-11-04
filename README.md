@@ -29,7 +29,7 @@ I am using the following libraries and frameworks for the project :-
       - [D3](https://github.com/d3/d3)\
       - [D3 Geo](https://github.com/d3/d3-geo)\
       - [Material UI](https://github.com/mui-org/material-ui)\
-      - [TopoJSON](https://github.com/topojson/topojson)\
+      - [TopoJSON](https://github.com/topojson/topojson)
 
 ## Questions 
 
