@@ -1,7 +1,7 @@
 # Data Visualization Project
 
 ##### Table of Contents  
-[Diversity in Greek Life](#Diversity in Greek Life )  
+[Diversity in Greek Life](#Data)  
 
 
 ## Diversity in Greek Life 
