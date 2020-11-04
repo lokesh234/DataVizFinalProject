@@ -17,7 +17,7 @@ The data I propose to visualize for my project is the Duke University Greek Life
 
 ## Setup
 
-To run the website download the code from github using `git clone` and clone the repository into your local computer. After cloning the repository `cd` into project workspace and run `npm install` to download the necessary packages. 
+To run the website download the code from github using `git clone` and clone the repository into your local computer. After cloning the repository `cd` into project workspace and run `npm install` to download the necessary node packages required to run the website. Once the node packages are done installing use the command `npm start` on your terminal to run the project on your `localhost:3000` 
 
 ## Questions 
 
