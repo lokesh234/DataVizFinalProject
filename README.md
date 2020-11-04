@@ -4,7 +4,7 @@
 [Diversity in Greek Life](#Diversity in Greek Life )  
 
 
-## Diversity in Greek Life 
+##Diversity in Greek Life 
 
 This project is a data visualization website that visualizes Greek Life at Duke University and shows the different trends in diversity in Greek Life at the School.
 
