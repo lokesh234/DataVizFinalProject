@@ -26,7 +26,7 @@ Tasks and Questions that drive the visualization and interaction decisions for t
 
 The following image is a rough sketch of the United States Heat map of students that come from different states to Duke and once you click on a circle it opens a new page to show a bar chart of the different fraternities or Sororities. The pie chart right next to it lets you click on a section and allows you to see the average price of tuition of the fraternity by each slice.
 
-![image](viz1.PNG)
+![image](https://raw.githubusercontent.com/lokesh234/dataviz-project-template-proposal/master/viz1.PNG)
 
 The following image shows one of the different factors about the dataset that allows you to see if the students went to a public or a private high school. The dropdown next to it lets you create a bar chart based on different states for the average tuition price by high school of Fraternities and Sororities.
 
