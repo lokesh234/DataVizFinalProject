@@ -22,15 +22,14 @@ To run the website download the code from github using `git clone` and clone the
 ## Libraries
 
 I am using the following libraries and frameworks for the project :-
-##### Libraries
-      - [React](https://github.com/facebook/react) 
-      - [React DOM](https://github.com/facebook/react/tree/master/packages/react-dom)
-      - [React Router DOM](https://github.com/facebook/react)
-      - [React CSV-TO-TABLE](https://github.com/marudhupandiyang/react-csv-to-table)
-      - [D3](https://github.com/d3/d3)
-      - [D3 Geo](https://github.com/d3/d3-geo) 
-      - [Material UI](https://github.com/mui-org/material-ui) 
-      - [TopoJSON](https://github.com/topojson/topojson)
+      - [React](https://github.com/facebook/react)\
+      - [React DOM](https://github.com/facebook/react/tree/master/packages/react-dom)\
+      - [React Router DOM](https://github.com/facebook/react)\
+      - [React CSV-TO-TABLE](https://github.com/marudhupandiyang/react-csv-to-table)\
+      - [D3](https://github.com/d3/d3)\
+      - [D3 Geo](https://github.com/d3/d3-geo)\
+      - [Material UI](https://github.com/mui-org/material-ui)\
+      - [TopoJSON](https://github.com/topojson/topojson)\
 
 ## Questions 
 
