@@ -36,7 +36,6 @@ The following image shows one of the different factors about the dataset that al
 
 ## Schedule of Deliverables 
 
-[Project Timeline]
 |Time Required (in Hrs)    | Task          |  Expected Delivery | 
 |-------------|---------------|-------------|
 | 5 | Creating the base website with links to hold all the visualizations with styling from Material-UI. | 10/11/2020 |
