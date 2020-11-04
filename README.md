@@ -17,7 +17,19 @@ The data I propose to visualize for my project is the Duke University Greek Life
 
 ## Setup
 
-To run the website download the code from github using `git clone` and clone the repository into your local computer. After cloning the repository `cd` into project workspace and run `npm install` to download the necessary node packages required to run the website. Once the node packages are done installing use the command `npm start` on your terminal to run the project on your `localhost:3000` 
+To run the website download the code from github using `git clone` and clone the repository into your local computer. After cloning the repository `cd` into project workspace,  and run `npm install` to download the necessary node packages required to run the website. Once the node packages are done installing, use the command `npm start` on your terminal to run the project on your `localhost:3000` 
+
+## Libraries
+
+I am using the following libraries and frameworks for the project :-
+      - [React](https://github.com/facebook/react) 
+      - [React DOM](https://github.com/facebook/react/tree/master/packages/react-dom)
+      - [React Router DOM](https://github.com/facebook/react)
+      - [React CSV-TO-TABLE](https://github.com/marudhupandiyang/react-csv-to-table)
+      - [D3](https://github.com/d3/d3)
+      - [D3 Geo](https://github.com/d3/d3-geo) 
+      - [Material UI](https://github.com/mui-org/material-ui) 
+      - [TopoJSON](https://github.com/topojson/topojson)
 
 ## Questions 
 
