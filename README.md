@@ -41,7 +41,11 @@ The raw data tab contains the data in a tabulated format with the help of csv-to
 
 ![image](https://raw.githubusercontent.com/lokesh234/DataVizFinalProject/master/VIz12.PNG)
 
-After getting some information about the data you can choose which data visualization you want to visualize, you can choose any from the top bar. The Heatmap visualization provides a heatmap of the United States with a interactive color legend to explore where different students come from at Duke. The size of the circle represent the highschool price of different students. 
+After getting some information about the data you can choose which data visualization you want to visualize, you can choose any visualization from the top bar. 
+
+### Heatmap
+
+The Heatmap visualization provides a heatmap of the United States with a interactive color legend to explore where different students come from at Duke. The size of the circle represent the highschool price of different students. 
 
 ![image](https://raw.githubusercontent.com/lokesh234/DataVizFinalProject/master/VIz13.PNG)
 
