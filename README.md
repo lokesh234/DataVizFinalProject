@@ -7,7 +7,6 @@ This project is a data visualization website that visualizes Greek Life at Duke 
   -[Setup](#Setup)  
   -[Libraries](#Libraries)  
   -[Project](#Project)   
-  -[Methodology](#Methodology)  
   -[Results](#Results)  
   -[Acknowledgements](#Acknowledgements)  
 
@@ -59,13 +58,29 @@ The Heatmap has an interactive legend and when you hover over a specific legend 
 
 ![image](https://raw.githubusercontent.com/lokesh234/DataVizFinalProject/master/Frat.png)
 
+The map also allows you to click on a specific point to find out what the average tuition price is in that state. The following is the bar chart when you click on California.
 
+![image](https://raw.githubusercontent.com/lokesh234/DataVizFinalProject/master/VIz15.PNG)
+
+### Bar Chart 
+
+If you don't want to click on the map itself you can click the Bar Chart Page and select the specific state manually.  
+
+![image](https://raw.githubusercontent.com/lokesh234/DataVizFinalProject/master/Baqr.PNG)
+
+### Pie Chart 
+
+The pie chart gives you the a clear idea of which fraternity and sorority has the highest average tuition is. 
+
+As we can see that Sigma Chi has the highest average tuition out of all the fraternities. 
+
+![image](https://raw.githubusercontent.com/lokesh234/DataVizFinalProject/master/Fratpie.PNG)
+
+Delta Gamma has the highest average tuition out of all the sororities. 
+
+![image](https://raw.githubusercontent.com/lokesh234/DataVizFinalProject/master/SratPi.PNG)
 
 ## Methodology
-
-## Results
-
-
 
 
 ## Acknowledgements 
