@@ -49,6 +49,9 @@ The Heatmap visualization provides a heatmap of the United States with a interac
 
 ![image](https://raw.githubusercontent.com/lokesh234/DataVizFinalProject/master/VIz13.PNG)
 
+You can see the highschool price of different studenst that did not join any Greek Organization by clicking on the bottom navigationn.
+
+![image](https://raw.githubusercontent.com/lokesh234/DataVizFinalProject/master/not.png)
 
 
 ## Methodology
