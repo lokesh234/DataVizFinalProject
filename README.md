@@ -35,7 +35,7 @@ I am using the following libraries and frameworks for the project :- \
 
 When you first open the project the website takes you to the home page where you can interact with the three bottom navigation tabs to get more information about the project. The three bottom navigation tabs are : Project, About the Data and Raw Data. The project page contains information about the project and is a copy this READMe file. When you click on About the data tab it gives you information about the data and links to the original dataset. 
 
-![image](VIz11.png)
+![image](https://raw.githubusercontent.com/lokesh234/DataVizFinalProject/master/VIz11.PNG)
 
 
 ## Methodology
