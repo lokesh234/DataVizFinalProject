@@ -21,7 +21,7 @@ To run the website download the code from github using `git clone` and clone the
 
 ## Libraries
 
-I am using the following libraries and frameworks for the project :-
+I am using the following libraries and frameworks for the project :- \
       - [React](https://github.com/facebook/react)\
       - [React DOM](https://github.com/facebook/react/tree/master/packages/react-dom)\
       - [React Router DOM](https://github.com/facebook/react)\
