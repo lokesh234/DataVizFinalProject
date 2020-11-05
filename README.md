@@ -37,6 +37,10 @@ When you first open the project the website takes you to the home page where you
 
 ![image](https://raw.githubusercontent.com/lokesh234/DataVizFinalProject/master/VIz11.PNG)
 
+The raw data tab contains the data in a tabulated format with the help of csv-to-table library. 
+
+![image](https://raw.githubusercontent.com/lokesh234/DataVizFinalProject/master/VIz12.PNG)
+
 
 ## Methodology
 
