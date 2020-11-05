@@ -82,4 +82,4 @@ Delta Gamma has the highest average tuition out of all the sororities.
 
 ## Acknowledgements 
 
-I would like to acknowledge Prof. Kelleher for his teaching and his time in helping me figure out how to make a vertical bar chart and pie chart for my final project. I would also like to thank all the developer of the respective libraries I am using for my final project. My project would not have been possible if not Prof. Kelleher and the respective libraries. 
+I would like to acknowledge Prof. Kelleher for his teaching and his time in helping me figure out how to make a vertical bar chart and pie chart for my final project. I would also like to thank all the developer of the respective libraries I am using for my final project. My project would not have been possible without Prof. Kelleher and the respective developers. 
