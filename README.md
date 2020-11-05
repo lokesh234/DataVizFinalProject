@@ -53,6 +53,13 @@ You can see the highschool price of different studenst that did not join any Gre
 
 ![image](https://raw.githubusercontent.com/lokesh234/DataVizFinalProject/master/not.png)
 
+The Heatmap has an interactive legend and when you hover over a specific legend the map will highlight the respective selection. 
+
+![image](https://raw.githubusercontent.com/lokesh234/DataVizFinalProject/master/Srat.png)
+
+![image](https://raw.githubusercontent.com/lokesh234/DataVizFinalProject/master/Frat.png)
+
+
 
 ## Methodology
 
