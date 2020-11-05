@@ -55,8 +55,7 @@ function TopBar() {
                     </Typography>
                     <Button component={ Link } to="/heatmap" color="inherit" className={classes.menuButton}>Heatmap</Button>
                     <Button component={ Link } to="/piechart" color="inherit" className={classes.menuButton}>Pie Chart</Button>
-                    <Button component={ Link } to="/scatterplot" color="inherit" className={classes.menuButton}>Scatter Plot</Button>
-                    <Button component={ Link } to="/barchart" color="inherit" className={classes.menuButton}>Bar Chart</Button>
+                    <Button component={ Link } to="/barchartstate" color="inherit" className={classes.menuButton}>Bar Chart</Button>
                     <Button component={ Link } to="/customizableviz" color="inherit" className={classes.menuButton}> Customizable Data Viz </Button>
                 </Toolbar>
             </AppBar>

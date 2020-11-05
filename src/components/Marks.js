@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 const projection = geoAlbers().scale(1600);
 const path = geoPath(projection);
 const width = 1600;
-const height = 800;
+const height = 900;
 
 
 function Marks({cities}) {

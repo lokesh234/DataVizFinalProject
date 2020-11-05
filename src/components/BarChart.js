@@ -29,7 +29,7 @@ function BarChart({data, state}) {
 
     const yScale = scaleLinear()
         .domain([0, max(statedata, d => d['Tuition of High School'])])
-        .range([0, innerHeight])
+        .range([innerHeight, 0])
 
 
 
@@ -47,12 +47,12 @@ function BarChart({data, state}) {
                 })}
                 {xScale.domain().map(tickValue => {
                     return (
-                        <g transform={`translate(${xScale(tickValue)}, 0)`}>
-                            <text y={-15} style={{ textAnchor: "middle"}} dy={".71em"}>{tickValue}</text>
+                        <g transform={`translate(${xScale(tickValue) + xScale.bandwidth()/2}, 0)`}>
+                            <text y={innerHeight + 20} style={{ textAnchor: "middle"}} dy={".71em"}>{tickValue}</text>
                         </g>
                     )
                 })}
-            {statedata.map(d => <rect className="rectangles" x={xScale(d['Greek Organization'])} y={0} width={xScale.bandwidth()} height={yScale(d['Tuition of High School'])} />)
+            {statedata.map(d => <rect className="rectangles" x={xScale(d['Greek Organization'])} y={innerHeight - yScale(d['Tuition of High School']) } width={xScale.bandwidth()} height={yScale(d['Tuition of High School'])} />)
                 }
             </g>
         </svg>

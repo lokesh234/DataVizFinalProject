@@ -11,10 +11,10 @@ const centerY = (height + 150)/2;
 function FratPie() {
     console.log(sumArray);
 
-    const colorArray = ['#EF5411', '#FA5B0F', '#FF6517', '#FF822E', '#00B3E6',
-        "#F4EDBD",
-        '#B5A269', '#756944', '#999966', '#F5DB8E', '#B34D4D',
-        '#B56748', '#75432F', '#F58C62', '#E6331A', '#33FFCC',];
+    const colorArray = ['#fff5eb', '#fee6ce', '#fdd0a2', '#fdae6b', '#fd8d3c',
+        "#f16913",
+        '#d94801', '#a63603', '#7f2704', '#fff5f0', '#fee0d2',
+        '#fcbba1', '#ef3b2c', '#F58C62', '#E6331A', '#33FFCC',];
 
     const data = pie().sort(null).value(function (d) {
         return d.Tuition
@@ -31,8 +31,10 @@ function FratPie() {
     const finalArray = [];
 
     betterArray.forEach(function (fl) {
-        finalArray.push(fl.Tuition/betterArray.length)
+        finalArray.push(fl.Tuition)
     });
+
+    const arcs = pie()(betterArray.map(function(d) { return d.Tuition; }));
 
     return (
         <svg width={width} height={height} className="SVG" >
@@ -46,12 +48,8 @@ function FratPie() {
                 ))}
             </g>
             <g transform={`translate(${centerX},${centerY})`}>
-                {finalArray.map((d,i) => (
-                    <path fill={colorArray[i]} d={pieArc({
-                            startAngle: (finalArray[i]) * 2 * Math.PI,
-                            endAngle: (finalArray[i] + 0.12) * 2 * Math.PI
-                        }
-                    )}/>
+                {arcs.map((d,i) => (
+                    <path fill={colorArray[i]} d={pieArc(d)}/>
                 ))}
             </g>
 

@@ -8,6 +8,7 @@ import CSVTable from "../components/CSVTable";
 import TopBar from "../components/TopBar";
 import AppCards from "../components/AppCards";
 import {useCities} from "../data/useCities";
+import READMe from "../components/ReadMe";
 
 const useStyles = makeStyles((theme) => ({
     broot: {
@@ -47,6 +48,7 @@ function Home() {
     return (
         <Fragment>
             <TopBar/>
+            { value === 0 ? <READMe/> : null}
             { value === 1 ? <AppCards/> : null}
             { value === 2 ? <CSVTable/> : null}
             <Box mt={20}/>
