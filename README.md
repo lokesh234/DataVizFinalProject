@@ -33,7 +33,7 @@ I am using the following libraries and frameworks for the project :- \
 
 When you first open the project the website takes you to the home page where you can interact with the three bottom navigation tabs to get more information about the project. The three bottom navigation tabs are : Project, About the Data and Raw Data. The project page contains information about the project and is a copy this READMe file. When you click on About the data tab it gives you information about the data and links to the original dataset. 
 
-![image](https://raw.githubusercontent.com/lokesh234/DataVizFinalProject/master/VIz11.PNG)
+[![image](https://raw.githubusercontent.com/lokesh234/DataVizFinalProject/master/VIz11.PNG)](https://lokesh234.github.io/DataVizFinalProject/#/)
 
 The raw data tab contains the data in a tabulated format with the help of csv-to-table library. 
 
@@ -45,7 +45,7 @@ After getting some information about the data you can choose which data visualiz
 
 The Heatmap visualization provides a heatmap of the United States with a interactive color legend to explore where different students come from at Duke. The size of the circle represent the highschool price of different students. 
 
-![image](https://raw.githubusercontent.com/lokesh234/DataVizFinalProject/master/VIz13.PNG)
+[![image](https://raw.githubusercontent.com/lokesh234/DataVizFinalProject/master/VIz13.PNG)](https://lokesh234.github.io/DataVizFinalProject/#/heatmap)
 
 You can see the highschool price of different studenst that did not join any Greek Organization by clicking on the bottom navigationn.
 
@@ -59,13 +59,13 @@ The Heatmap has an interactive legend and when you hover over a specific legend 
 
 The map also allows you to click on a specific point to find out what the average tuition price is in that state. The following is the bar chart when you click on California.
 
-![image](https://raw.githubusercontent.com/lokesh234/DataVizFinalProject/master/VIz15.PNG)
+[![image](https://raw.githubusercontent.com/lokesh234/DataVizFinalProject/master/VIz15.PNG)](https://lokesh234.github.io/DataVizFinalProject/#/barchart)
 
 ### Bar Chart 
 
 If you don't want to click on the map itself you can click the Bar Chart Page and select the specific state manually.  
 
-![image](https://raw.githubusercontent.com/lokesh234/DataVizFinalProject/master/Baqr.PNG)
+[![image](https://raw.githubusercontent.com/lokesh234/DataVizFinalProject/master/Baqr.PNG)](https://lokesh234.github.io/DataVizFinalProject/#/barchartstate)
 
 ### Pie Chart 
 
@@ -73,7 +73,7 @@ The pie chart gives you the a clear idea of which fraternity and sorority has th
 
 As we can see that Sigma Chi has the highest average tuition out of all the fraternities. 
 
-![image](https://raw.githubusercontent.com/lokesh234/DataVizFinalProject/master/Fratpie.PNG)
+[![image](https://raw.githubusercontent.com/lokesh234/DataVizFinalProject/master/Fratpie.PNG)](https://lokesh234.github.io/DataVizFinalProject/#/piechart)
 
 Delta Gamma has the highest average tuition out of all the sororities. 
 
@@ -82,4 +82,4 @@ Delta Gamma has the highest average tuition out of all the sororities.
 
 ## Acknowledgements 
 
-I would like to acknowledge Prof. Kelleher for his teaching and his time in helping me figure out how to make a vertical bar chart and pie chart for my final project. I would also like to thank all the developer of the respective libraries I am using for my final project. My project would not have been possible if not Prof. Kelleher and the respective libraries. 
+I would like to acknowledge Prof. Kelleher for his teaching and his time in helping me figure out how to make a vertical bar chart and pie chart for my final project. I would also like to thank all the developer of the respective libraries I am using for my final project. My project would not have been possible without Prof. Kelleher and the respective developers. 
